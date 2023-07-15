@@ -1,0 +1,12 @@
++Express+: Webserver que vamos utilizar para a webapi; 
+-Cors-: É um pacote de segurança necessário para permitir comunicação futura com o frontend; 
+=Helmet=: É um pacote de segurança para da uma blindada basicá na nossa webapi;
+¨Dotenv¨: Pacote de configuração para cuidar das variáveis de ambiente; 
+*Morgan*: Pacote para login de requisição no terminal; 
+°Express-async-errors°: Pacote para conseguri capturar erros assíncronos; 
++Server.ts+: Módulo de inicialização do servidor web onde nossa webapi estará hospedada, módulo de infraestrutura; 
+-App.ts-: Módulo de configuração de webapi, módulo de aplicação;
+=Routers=: Pasta onde guardaremos os módulos de roteamento, que mapeiam os endpoints para as funções de controle; 
+¨Controllers¨:Pasta onde guardaremos os módulos de controle, que revebem as requisições roteadas e fazem os processamentos necessários; 
+*Models*: Pasta onde guardaremos os módulos de entidades, que contém a especificação delas; 
+°Repositories°: Pasta onde guardaremos os móduloes de repositório, que contém as funções de leitura, exclusão, inserção, etc das entidades; 
